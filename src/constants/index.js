@@ -1,6 +1,5 @@
 import project1 from "../assets/projects/Projet1.png";
 import project2 from "../assets/projects/Projet2.png";
-import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/LOGO.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. Although I am at the beginning of my journey, I am dedicated to mastering front-end technologies like React, Tailwind, and Bootstrap, as well as back-end technologies like Laravel and MySQL. My goal is to leverage my growing expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -53,15 +52,9 @@ export const PROJECTS = [
       "A front-end movie app that displays movies fetched from an API.",
     technologies: ["HTML", "CSS", "React"],
   },
+ 
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio showcasing my projects and skills in web development.",
-    technologies: ["HTML", "CSS", "React", "tailwind"],
-  },
-  {
-    title: "La bonne Adresse",
+    title: "La bonne Adresse (Freelance)",
     image: project4,
     description:
       "A travel project highlighting restaurants, coffee shops, and nightclubs in Marseille, with reservation capabilities on the website.",
